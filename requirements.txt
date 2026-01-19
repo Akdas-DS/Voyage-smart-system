@@ -1,0 +1,34 @@
+# Core
+numpy==2.2.6
+pandas==2.3.3
+
+# Machine Learning
+scikit-learn==1.7.2
+joblib==1.5.3
+scipy==1.15.3
+
+# Visualization (used in notebook / optional in app)
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Streamlit App
+streamlit==1.52.2
+pydeck==0.9.1
+watchdog==6.0.0
+
+# MLflow
+mlflow==3.8.1
+mlflow-skinny==3.8.1
+
+# Backend / API (indirect MLflow deps)
+Flask==3.1.2
+Werkzeug==3.1.5
+SQLAlchemy==2.0.45
+alembic==1.18.0
+
+# Utilities
+python-dotenv==1.2.1
+requests==2.32.5
+PyYAML==6.0.3
+typing_extensions==4.15.0
+packaging==25.0
